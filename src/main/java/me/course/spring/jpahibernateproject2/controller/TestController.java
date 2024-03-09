@@ -1,4 +1,4 @@
-package me.course.spring.controller;
+package me.course.spring.jpahibernateproject2.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-@Controller
+//@Controller
 public class TestController {
     @GetMapping("/load")
     public ModelAndView test1() {
@@ -15,9 +15,9 @@ public class TestController {
         mv.setViewName("test");
         return mv;
     }
-@RequestMapping("/home")
-@ResponseBody
-public String home(){
-    return "Hello World!";
-}
+    @RequestMapping("/home")
+    @ResponseBody
+    public String home(){
+        return "Hello World!";
+    }
 }

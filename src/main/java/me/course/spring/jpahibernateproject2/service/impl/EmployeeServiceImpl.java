@@ -1,8 +1,8 @@
-package me.course.spring.service.impl;
+package me.course.spring.jpahibernateproject2.service.impl;
 
-import me.course.spring.entity.EmployeeEntity;
-import me.course.spring.repository.EmployeeRepository;
-import me.course.spring.service.EmployeeService;
+import me.course.spring.jpahibernateproject2.entity.EmployeeEntity;
+import me.course.spring.jpahibernateproject2.repository.EmployeeRepository;
+import me.course.spring.jpahibernateproject2.service.EmployeeService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

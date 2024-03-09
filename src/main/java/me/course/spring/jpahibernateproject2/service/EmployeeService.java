@@ -1,6 +1,6 @@
-package me.course.spring.service;
+package me.course.spring.jpahibernateproject2.service;
 
-import me.course.spring.entity.EmployeeEntity;
+import me.course.spring.jpahibernateproject2.entity.EmployeeEntity;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,6 +1,6 @@
-package me.course.spring.repository;
+package me.course.spring.jpahibernateproject2.repository;
 
-import me.course.spring.entity.EmployeeEntity;
+import me.course.spring.jpahibernateproject2.entity.EmployeeEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package me.course.spring.entity;
+package me.course.spring.jpahibernateproject2.entity;
 
 import jakarta.persistence.*;
 
